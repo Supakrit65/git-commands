@@ -33,22 +33,24 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
 ## Basics
 
 1. When using Git locally, what are these?  Define each one in a sentence
+   ```
    * Staging area - It is space for changes to be committed.
    * Working copy - It is a copy of the project folder you work on.
    * master - The name of the default branch which Git creates when you create a Git repository 
    * HEAD - It points to the current commit of a branch.
-
-2. When you install git on a new machine (or in a new user account) you should perform these 2 git commands to tell git your name and email.  These values are used in commits that you make:
+   ```
+   
+3. When you install git on a new machine (or in a new user account) you should perform these 2 git commands to tell git your name and email.  These values are used in commits that you make:
    ```
    git config --global user.name "Your Name"
    git config --global user.email "Your Email Address"
    ```
 
-3. There are 2 ways to create a local Git repository.  What are they?
+4. There are 2 ways to create a local Git repository.  What are they?
    - Turn your local directory which is not under version control into a Git repository by using git init.
    - Clone an existing Git repository by using git clone. 
 
-4. When you create a git repository by entering `git init`, Git will create a "hidden" directory for the local repository.  Where is the directory for this local repository (relative to the directory where you typed "git init")?
+5. When you create a git repository by entering `git init`, Git will create a "hidden" directory for the local repository.  Where is the directory for this local repository (relative to the directory where you typed "git init")?
    ```
    Hidden .git directory is in the same directory where you typed git init.
    ```
