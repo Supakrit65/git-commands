@@ -117,9 +117,9 @@ test/
    ```
 
 10. **Delete** the file `c.py` from your working copy **and** the repository:
-   ```
-   git rm src/c.py
-   ```
+    ```
+    git rm src/c.py
+    ```
 
 
 ## Undo Changes and Recover Files
