@@ -221,7 +221,7 @@ test/
 
 
 ## Favorites
-<b>Redo commit</b>
+<b>Redo commit</b>  
 Sometime if you forget to add some files or miss type your commit message
    , you can use --amend to redo that commit.  
 ```git commit -m 'A mistake commit'```  
