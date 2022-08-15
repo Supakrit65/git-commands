@@ -103,7 +103,7 @@ test/
 
 7. Command to move all the .py files from `src` to the top-level directory of this repository, so they are also moved in the Git repo.
    ```
-   git mv ./src/* .
+   git mv src/*.py ./
    ```
 
 8. Commit this change with the message "moved src directory":
@@ -154,7 +154,7 @@ test/
    ``` 
    The command to reset HEAD and master to the commit id `bbbb`:
    ```
-   git reset --hard bbbb
+   git reset bbbb
    ```
 
 7. **Checkout old code:** Using the above example, the command to replace your working copy with the files from commit with id `aaaa`:
@@ -176,7 +176,7 @@ test/
 
 2. Show the history (as above) including *all* branches in the repository and include a graph connecting the commits:
    ```
-   git log --oneline --decorate --graph --all
+   git log --oneline --graph --all
    ```
 
 3. List all the files in the current branch of the repository:
@@ -206,7 +206,7 @@ test/
    ```
 3. List the names of **all** branches, including remote branches:
    ```
-   git branch -all
+   git branch --all
    ```
 
 4. Switch your working copy to the branch named `dev-foo`:
