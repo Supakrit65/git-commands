@@ -116,7 +116,7 @@ test/
       ```
 2. Display the differences between your *working copy* of `a.py` and the version in the *staging area*. (But, if a.py is not in the staging area this will compare working copy to HEAD revision):
       ```
-      git diff a.py
+      git diff --cached a.py
       ```
 3. **View changes to be committed:** Display the differences between files in the staging area and the versions in the repository. (You can also specify a file name to compare just one file.) 
       ```
@@ -144,7 +144,7 @@ test/
 
 7. **Checkout old code:** Using the above example, the command to replace your working copy with the files from commit with id `aaaa`:
    ```
-   git checkout aaaa
+   git reset --hard aaaa
    ```
     Note:
     - Git won't let you do this if you have uncommitted changes to any "tracked" files.
@@ -231,8 +231,7 @@ Sometime if you forget to add some files or miss type your commit message
 ---
 ## Resources
 
-> TODO: Add your favorite Git resources (at least 1)
-
+[GitKraken Learn Git][GitKraken] a free git GUI client with great visualization  
 [Pro Git Online Book][ProGit] Chapters 2 & 3 contain the essentials. Downloadable PDF is also available.     
 [Visual Git Reference](https://marklodato.github.io/visual-git-guide) one page with illustrations of git commands.
 
@@ -248,3 +247,4 @@ Try Git:
 [markdown-cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [github-markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [vscode-markdown-preview-enhanced]: https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
+[GitKraken]: https://www.gitkraken.com/learn/git
