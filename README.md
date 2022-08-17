@@ -1,3 +1,6 @@
+# Quick Guide to Git
+
+***By Supakrit Aphonmaeklong***
 ## Using Git
 
 ## Table of Contents:
